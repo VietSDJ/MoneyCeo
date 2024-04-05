@@ -23,21 +23,65 @@ const Segmented = () => {
             </div>
           }
         />
-        <div className="text-center">
-          <div className="segmented__single">
+
+        <div className="text-center relative">
+          <div className="segmented__single single__card-1">
+            <div className="segmented__content">
+              <p>Make informed financial decisions with confidence.</p>
+            </div>
             <div className="segmented__icon">
               <i className="apton-icon-computer-graphic"></i>
             </div>
-
-            <p>Make informed financial decisions with confidence.</p>
           </div>
-          <img
-            src={MockupPortrait}
-            className="wow fadeInUp"
-            style={{ width: "329px", marginBottom: 55 }}
-            data-wow-duration="1500ms"
-            alt=""
-          />
+          <div className="segmented__single single__card-2">
+            <div className="segmented__content">
+              <p>Make informed financial decisions with confidence.</p>
+            </div>
+            <div className="segmented__icon">
+              <i className="apton-icon-computer-graphic"></i>
+            </div>
+          </div>
+          <div className="segmented__single single__card-3">
+            <div className="segmented__content">
+              <p>Make informed financial decisions with confidence.</p>
+            </div>
+            <div className="segmented__icon">
+              <i className="apton-icon-computer-graphic"></i>
+            </div>
+          </div>
+          <div className="segmented__single single__card-4">
+            <div className="segmented__icon">
+              <i className="apton-icon-computer-graphic"></i>
+            </div>
+            <div className="segmented__content">
+              <p>Make informed financial decisions with confidence.</p>
+            </div>
+          </div>
+          <div className="segmented__single single__card-5">
+            <div className="segmented__icon">
+              <i className="apton-icon-computer-graphic"></i>
+            </div>
+            <div className="segmented__content">
+              <p>Make informed financial decisions with confidence.</p>
+            </div>
+          </div>
+          <div className="segmented__single single__card-6">
+            <div className="segmented__icon">
+              <i className="apton-icon-computer-graphic"></i>
+            </div>
+            <div className="segmented__content">
+              <p>Make informed financial decisions with confidence.</p>
+            </div>
+          </div>
+          <div>
+            <img
+              src={MockupPortrait}
+              className="wow fadeInUp"
+              style={{ width: "329px", marginBottom: 55 }}
+              data-wow-duration="1500ms"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </section>

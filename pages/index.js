@@ -38,7 +38,7 @@ const HomePage = () => {
         <Thriving />
         <Rewards />
         <Segmented />
-        {/* <Services /> */}
+        <Services />
         {/* <FunFact /> */}
         <CTATwo />
 

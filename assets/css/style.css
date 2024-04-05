@@ -4531,12 +4531,44 @@ a:visited {
 /* Segmented */
 
 
+.single__card-1 {
+
+  top: 0px;
+  left: -100px;
+}
+
+.single__card-2 {
+  top: 240px;
+  left: -200px;
+}
+
+.single__card-3 {
+  bottom: 0;
+  left: -100px;
+}
+
+.single__card-4 {
+
+  top: 0px;
+  right: -100px;
+}
+
+.single__card-5 {
+  top: 240px;
+  right: -200px;
+}
+
+.single__card-6 {
+  bottom: 0;
+  right: -100px;
+}
+
 .segmented__single {
   border-radius: 135px;
   background-color: #fff;
   box-shadow: 0px 10px 60px 0px rgba(46, 61, 98, 0.10);
   text-align: center;
-  position: relative;
+  position: absolute;
   margin-bottom: 30px;
 
   width: 410px;
@@ -4545,24 +4577,25 @@ a:visited {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  position: relative;
   padding: 34.5px 25px 28px 26px;
   border-radius: 135px;
   overflow: hidden;
 }
 
+.segmented__content {
+  overflow: hidden;
+
+}
+
 .segmented__icon {
-  width: 129px;
+  flex: 0 0 129px;
   height: 129px;
+  width: 129px;
   background-color: #f6f6fb;
-  display: -webkit-box;
   display: flex;
-  -webkit-box-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
   align-items: center;
   text-align: center;
-
   position: relative;
   border-radius: 50%;
 }
@@ -4596,6 +4629,10 @@ a:visited {
   display: flex;
   justify-content: center;
 
+}
+
+.relative {
+  position: relative;
 }
 
 .are-45 {
