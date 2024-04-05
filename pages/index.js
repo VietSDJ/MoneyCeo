@@ -20,6 +20,8 @@ import Clients from "../components/Clients"
 import Testimonials from "../components/Testimonials"
 import MenuContextProvider from "../context/MenuContext"
 import Thriving from "../components/Thriving"
+import Rewards from "../components/Rewards"
+import Segmented from "../components/Segmented"
 
 const HomePage = () => {
   return (
@@ -34,10 +36,13 @@ const HomePage = () => {
         <Banner />
         <CTAOne />
         <Thriving />
-        <Services />
+        <Rewards />
+        <Segmented />
+        {/* <Services /> */}
         {/* <FunFact /> */}
         <CTATwo />
-        <Pricing />
+
+        {/* <Pricing /> */}
         <Testimonials />
         <Clients />
         <Team />
