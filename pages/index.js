@@ -22,6 +22,8 @@ import MenuContextProvider from "../context/MenuContext"
 import Thriving from "../components/Thriving"
 import Rewards from "../components/Rewards"
 import Segmented from "../components/Segmented"
+import AboutUs from "../components/AboutUs"
+import Career from "../components/Career"
 
 const HomePage = () => {
   return (
@@ -38,20 +40,22 @@ const HomePage = () => {
         <Thriving />
         <Rewards />
         <Segmented />
-        <Services />
+        <AboutUs />
+        <Career />
+        {/* <Services /> */}
         {/* <FunFact /> */}
-        <CTATwo />
+        {/* <CTATwo /> */}
 
         {/* <Pricing /> */}
-        <Testimonials />
-        <Clients />
-        <Team />
-        <VideoOne />
-        <AppScreen />
-        <FAQ />
-        <BlogHome />
+        {/* <Testimonials /> */}
+        {/* <Clients /> */}
+        {/* <Team /> */}
+        {/* <VideoOne /> */}
+        {/* <AppScreen /> */}
+        {/* <FAQ /> */}
+        {/* <BlogHome /> */}
         <Contact />
-        <CTAThree />
+        {/* <CTAThree /> */}
         <Footer />
       </Layout>
     </MenuContextProvider>

@@ -26,43 +26,44 @@ const NavLinks = () => {
           Features
         </ScrollLink>
       </li>
+
       <li>
         <ScrollLink
           activeClass="current"
-          to="pricing"
+          to="aboutUs"
           spy={true}
           smooth={true}
           offset={-70}
           duration={500}
         >
-          Pricing
+          About us
         </ScrollLink>
       </li>
       <li>
         <ScrollLink
           activeClass="current"
-          to="team"
+          to="career"
           spy={true}
           smooth={true}
           offset={-70}
           duration={500}
         >
-          Team
+          Careee
         </ScrollLink>
       </li>
       <li>
         <ScrollLink
           activeClass="current"
-          to="screens"
+          to="contactUs"
           spy={true}
           smooth={true}
           offset={-70}
           duration={500}
         >
-          Screens
+          Contact us
         </ScrollLink>
       </li>
-      <li className="dropdown">
+      {/* <li className="dropdown">
         <Link href="/blog">
           <>
             <a>News</a>
@@ -81,7 +82,7 @@ const NavLinks = () => {
             </Link>
           </li>
         </ul>
-      </li>
+      </li> */}
     </ul>
   )
 }
