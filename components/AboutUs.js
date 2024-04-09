@@ -67,7 +67,7 @@ const AboutUs = () => {
         </div>
         <div className="card-author card-author-2">
           <div className="title-author">
-            <p className="p-hightlight text-right">
+            <p className="p-hightlight ">
               Meet Le Quang Khai (Kevin Le), CTO of Moneymap
             </p>
             <p className="text-right">

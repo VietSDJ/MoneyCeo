@@ -466,6 +466,10 @@
     margin-bottom: 30px;
   }
 
+  .banner-one {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
   .banner-one__content h3 {
     margin-top: 0px;
     font-size: 40px;
@@ -479,6 +483,27 @@
   [class*="banner-one__bg-shape-"] {
     display: none;
   }
+  .cta-one {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .service-one {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .cta-author {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .cta-career {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .contact-one {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
   .cta-one__moc {
     margin-top: 55px;
   }
@@ -521,6 +546,8 @@
   }
   .thriving {
     padding-top: 0px;
+    padding-left: 4%;
+    padding-right: 4%;
   }
 
   .rewards__moc {
@@ -581,8 +608,14 @@
   .cta-author {
     padding-bottom: 0px;
     padding-bottom: 0px;
+    margin-bottom: 60px;
   }
-
+  .text-title-khai {
+    align-items: center !important;
+  }
+  .title-author p {
+    text-align: center;
+  }
   .team-one__bg-shape-1 {
     display: none;
   }
