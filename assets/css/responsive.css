@@ -717,3 +717,26 @@
     margin-top: 20px;
   }
 }
+@media (min-width: 640px) {
+  .footer-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer-desktop {
+    display: none;
+  }
+
+  .col-footer-1 {
+    -moz-box-flex: 0;
+    flex: 0 0 17%;
+    max-width: 17%;
+  }
+
+  .col-footer-2 {
+    -moz-box-flex: 0;
+    flex: 0 0 82%;
+    max-width: 82%;
+  }
+}

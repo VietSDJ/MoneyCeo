@@ -26,7 +26,7 @@ const Career = () => {
                   do. If you're passionate about making a difference, driving
                   success, and shaping the future, we invite you to explore
                   exciting career opportunities with us. Send your cv to{" "}
-                  <a href="#">mm@moneymap.sg</a>
+                  <a href="#">support@moneymap.sg</a>
                 </p>
               </div>
             </div>

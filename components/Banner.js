@@ -63,9 +63,9 @@ const Banner = () => {
               <div className="col-lg-9">
                 <p>Revolutionize Your Relationship with Money </p>
                 <p>
-                  MoneyCEO is more than just a budgeting app. It's a financial
-                  game-changer, designed to empower you with complete control
-                  over your cash flow.
+                  MoneyCEO is more than just a budgeting app. <br />
+                  It's a financial game-changer, designed to empower you with
+                  complete control over your cash flow.
                 </p>
                 <p>MoneyCEO: Finally, Cash Flow Made Easy</p>
               </div>
