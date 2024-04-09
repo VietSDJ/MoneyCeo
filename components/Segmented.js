@@ -45,7 +45,7 @@ const Segmented = () => {
           textAlign="center"
           // paraText="Feature List"
           titleText={
-            <div>
+            <div className="text-start">
               <span className="text-size-large">
                 Financial <span className="text-highlight ">Freedom</span>{" "}
                 Starts Here

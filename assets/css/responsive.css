@@ -87,7 +87,7 @@
     flex: 0 0 100%;
   }
 
-  .cta-two__icon-single+.cta-two__icon-single {
+  .cta-two__icon-single + .cta-two__icon-single {
     margin-left: 0;
     margin-top: 20px;
   }
@@ -393,7 +393,8 @@
     flex-wrap: wrap;
   }
 
-  .banner-one__mc-form input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]) {
+  .banner-one__mc-form
+    input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]) {
     width: 100%;
     max-width: 100%;
     border-radius: 5px;
@@ -496,6 +497,12 @@
   .service-one {
     padding-left: 4%;
     padding-right: 4%;
+  }
+  .custom-swipe-1 {
+    left: 65px;
+  }
+  .custom-swipe-3 {
+    right: 55px;
   }
 
   .cta-author {
@@ -664,6 +671,10 @@
     text-align: justify !important;
   }
 
+  .text-is-right {
+    text-align: end !important;
+  }
+
   .cta-career {
     padding-top: 80px;
   }
@@ -764,7 +775,7 @@
     flex-wrap: wrap;
   }
 
-  .cta-three__btn+.cta-three__btn {
+  .cta-three__btn + .cta-three__btn {
     margin-left: 0;
     margin-top: 20px;
   }
