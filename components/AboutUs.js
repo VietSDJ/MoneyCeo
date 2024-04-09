@@ -1,8 +1,8 @@
-import React from "react"
-import BlockTitle from "./BlockTitle"
-import CEO from "../assets/images/Team/MarshallPoh.png"
-import CTO from "../assets/images/Team/LeQuangKhai.png"
-import PrettyEllipse from "../assets/images/shapes/pretty-ellipse.png"
+import React from "react";
+import BlockTitle from "./BlockTitle";
+import CEO from "../assets/images/Team/MarshallPoh.png";
+import CTO from "../assets/images/Team/LeQuangKhai.png";
+import PrettyEllipse from "../assets/images/shapes/pretty-ellipse.png";
 
 const AboutUs = () => {
   return (
@@ -43,7 +43,7 @@ const AboutUs = () => {
           titleText={<span className="text-size-large">About us</span>}
         />
         <div className="text-left">
-          <div className="card-author">
+          <div className="card-author card-author-1">
             <img
               src={CEO}
               className="img-author"
@@ -65,7 +65,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-        <div className="card-author">
+        <div className="card-author card-author-2">
           <div className="title-author">
             <p className="p-hightlight text-right">
               Meet Le Quang Khai (Kevin Le), CTO of Moneymap
@@ -90,7 +90,7 @@ const AboutUs = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AboutUs
+export default AboutUs;

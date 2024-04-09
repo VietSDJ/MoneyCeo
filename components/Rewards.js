@@ -1,8 +1,8 @@
-import React from "react"
-import BlockTitle from "./BlockTitle"
-import Coin from "../assets/images/resources/coin.png"
+import React from "react";
+import BlockTitle from "./BlockTitle";
+import Coin from "../assets/images/resources/coin.png";
 
-import CtaMoc1 from "../assets/images/resources/double-phone-coin.png"
+import CtaMoc1 from "../assets/images/resources/double-phone-coin.png";
 const Rewards = () => {
   return (
     <section className="cta-one">
@@ -18,11 +18,14 @@ const Rewards = () => {
         style={{ width: "257px" }}
         alt=""
       />
-      <div className="container">
-        <div className="rewards__moc wow fadeInLeft" data-wow-duration="1500ms">
+      <div className="container div-container-rewards">
+        <div
+          className="div-child-rewards rewards__moc wow fadeInLeft"
+          data-wow-duration="1500ms"
+        >
           <img src={CtaMoc1} className="cta-one__moc-img" alt="" />
         </div>
-        <div className="row justify-content-end">
+        <div className="div-child-rewards row justify-content-end">
           <div className="col-lg-7">
             <div className="cta-one__content">
               <BlockTitle
@@ -53,7 +56,7 @@ const Rewards = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Rewards
+export default Rewards;

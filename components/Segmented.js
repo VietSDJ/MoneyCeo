@@ -1,17 +1,17 @@
-import React from "react"
-import BlockTitle from "./BlockTitle"
-import MockupPortrait from "../assets/images/resources/mockup-portrait1.png"
-import RadialCircle from "../assets/images/shapes/RadialCircle.png"
-import PrettyEllipse from "../assets/images/shapes/pretty-ellipse.png"
-import HandFist from "../assets/images/resources/final-HandFist.png"
-import ChartPieSlice from "../assets/images/resources/final-ChartPieSlice.png"
-import CaretDoubleRight from "../assets/images/resources/final-CaretDoubleRight.png"
-import Scales from "../assets/images/resources/final-Scales.png"
-import Smiley from "../assets/images/resources/final-Smiley.png"
-import GoogleMiniIcon from "../assets/images/resources/GoogleStoreMiniIcon.png"
-import AppStoreMiniIcon from "../assets/images/resources/appleStoreMiniIcon.png"
+import React from "react";
+import BlockTitle from "./BlockTitle";
+import MockupPortrait from "../assets/images/resources/mockup-portrait1.png";
+import RadialCircle from "../assets/images/shapes/RadialCircle.png";
+import PrettyEllipse from "../assets/images/shapes/pretty-ellipse.png";
+import HandFist from "../assets/images/resources/final-HandFist.png";
+import ChartPieSlice from "../assets/images/resources/final-ChartPieSlice.png";
+import CaretDoubleRight from "../assets/images/resources/final-CaretDoubleRight.png";
+import Scales from "../assets/images/resources/final-Scales.png";
+import Smiley from "../assets/images/resources/final-Smiley.png";
+import GoogleMiniIcon from "../assets/images/resources/GoogleStoreMiniIcon.png";
+import AppStoreMiniIcon from "../assets/images/resources/appleStoreMiniIcon.png";
 
-import downloadGooglePlay from "../assets/images/resources/downloadGooglePlay.png"
+import downloadGooglePlay from "../assets/images/resources/downloadGooglePlay.png";
 const Segmented = () => {
   return (
     <section className="service-one">
@@ -57,7 +57,7 @@ const Segmented = () => {
             </div>
           }
         />
-        <div className="text-center relative">
+        <div className="text-center relative div-segmented-single">
           <div className="segmented__single single__card-1">
             <div className="segmented__content">
               <p>
@@ -146,7 +146,7 @@ const Segmented = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Segmented
+export default Segmented;
