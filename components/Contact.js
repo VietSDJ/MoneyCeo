@@ -2,12 +2,31 @@ import React from "react"
 import BlockTitle from "./BlockTitle"
 import ContactBgShape from "../assets/images/shapes/contact-bg-shape-1-1.png"
 import ContactImage from "../assets/images/resources/contact-1-1.jpg"
+import RadialCircle from "../assets/images/shapes/RadialCircle.png"
 
 const Contact = () => {
   return (
     <section className="contact-one" id="contactUs">
       <div className="flex-content-center">
         <img src={ContactBgShape} className="contact-one__bg-shape-1" alt="" />
+        <img
+          src={RadialCircle}
+          className="contact-one__bg-shape-2"
+          style={{ width: "206px" }}
+          alt=""
+        />
+        <img
+          src={RadialCircle}
+          className="contact-one__bg-shape-3"
+          style={{ width: "206px" }}
+          alt=""
+        />
+        <img
+          src={RadialCircle}
+          className="contact-one__bg-shape-4"
+          style={{ width: "552px" }}
+          alt=""
+        />
         <div className="are-45">
           <form className="contact-form-validated contact-one__form">
             <BlockTitle

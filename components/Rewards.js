@@ -30,7 +30,7 @@ const Rewards = () => {
                 // paraText="Feature List"
                 titleText={
                   <div className="text-right text-size-large">
-                    <span>Earn Rewards</span>
+                    <span className="text-highlight ">Earn Rewards</span>
                     <br />
                     <span>While You Manage Your Money</span>
                   </div>

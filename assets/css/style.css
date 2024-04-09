@@ -173,6 +173,13 @@ a:visited {
 }
 
 /* block title */
+.para-text {
+  color: var(--MM-Blue-1, #2A5C97) !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: 18px !important;
+}
 
 .block-title {
   padding-bottom: 51px;
@@ -908,7 +915,7 @@ a:visited {
   height: 904px;
 }
 
-@media (max-width: 1850px) {
+/* @media (max-width: 1850px) {
   .banner-one__bg {
     right: -10%;
   }
@@ -918,13 +925,14 @@ a:visited {
   .banner-one__bg {
     right: -20%;
   }
-}
+} */
 
+/* 
 @media (max-width: 1450px) {
   .banner-one__bg {
     right: -30%;
   }
-}
+} */
 
 @media (max-width: 1330px) {
   .banner-one__bg {
@@ -1134,6 +1142,15 @@ a:visited {
   padding-top: 59px;
   align-items: flex-start;
   gap: 50px;
+}
+
+.footer-widget__links-scroll a {
+  color: #737789;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
 }
 
 .footer-widget {
@@ -2475,6 +2492,35 @@ a:visited {
   right: 0;
 }
 
+.contact-one__bg-shape-2 {
+  bottom: 190px;
+  right: 280px;
+  -webkit-animation-name: squareMover;
+  animation-name: squareMover;
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-perspective: 100px;
+  perspective: 100px;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+}
+
+.contact-one__bg-shape-3 {
+  top: 30px;
+  left: 100px;
+}
+
+.contact-one__bg-shape-4 {
+  bottom: 60px;
+  left: 175px;
+}
+
 .contact-one .container {
   position: relative;
 }
@@ -2815,7 +2861,7 @@ a:visited {
 .cta-one {
   position: relative;
   padding-top: 185px;
-  margin-bottom: 200px;
+  margin-bottom: 250px;
 }
 
 [class*="cta-one__bg-radial-"] {
@@ -4803,6 +4849,13 @@ a:visited {
 }
 
 /* CUSSTOM CSS */
+.footer-company {
+  color: var(--MM-Y-1, #F1CA3F) !important;
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: 36px !important;
+}
 
 .flex-content-end {
   display: flex;

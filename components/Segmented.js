@@ -47,7 +47,8 @@ const Segmented = () => {
           titleText={
             <div>
               <span className="text-size-large">
-                Financial <span>Freedom</span> Starts Here
+                Financial <span className="text-highlight ">Freedom</span>{" "}
+                Starts Here
               </span>
               <br />
               <span className="text-size-small">
@@ -91,6 +92,15 @@ const Segmented = () => {
               <img src={ChartPieSlice} style={{ width: "100px" }} alt="" />
             </div>
           </div>
+          <div>
+            <img
+              src={MockupPortrait}
+              className="wow fadeInUp"
+              style={{ width: "329px", marginBottom: 55 }}
+              data-wow-duration="1500ms"
+              alt=""
+            />
+          </div>
           <div className="segmented__single single__card-4">
             <div className="segmented__icon">
               <img src={Smiley} style={{ width: "100px" }} alt="" />
@@ -125,15 +135,6 @@ const Segmented = () => {
                 <img src={AppStoreMiniIcon} style={{ width: "100px" }} alt="" />
               </a>
             </div>
-          </div>
-          <div>
-            <img
-              src={MockupPortrait}
-              className="wow fadeInUp"
-              style={{ width: "329px", marginBottom: 55 }}
-              data-wow-duration="1500ms"
-              alt=""
-            />
           </div>
         </div>
       </div>

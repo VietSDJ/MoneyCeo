@@ -30,7 +30,7 @@ const HomePage = () => {
     <MenuContextProvider>
       <Preloader />
 
-      <Layout pageTitle="Apiton | Home Page">
+      <Layout pageTitle="Money CEO">
         <Header
           btnClass="main-nav__btn"
           extraClassName="site-header-one__fixed-top"

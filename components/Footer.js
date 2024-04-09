@@ -14,7 +14,9 @@ const Footer = () => {
                   <a href="index.html">
                     <img src={FooterLogo} width="129" alt="" />
                   </a>
-                  <p>Money Map Joint Stock Company</p>
+                  <p className="footer-company">
+                    Money Map Joint Stock Company
+                  </p>
                   <div className="row">
                     <div className="col-lg-2">
                       <p>Address </p>
