@@ -1,11 +1,11 @@
-import React from "react"
-import BlockTitle from "./BlockTitle"
+import React from "react";
+import BlockTitle from "./BlockTitle";
 
-import CtaShape1 from "../assets/images/shapes/cta-1-shape-1.png"
-import CtaShape2 from "../assets/images/shapes/cta-1-shape-2.png"
-import CtaMoc1 from "../assets/images/resources/cta-1-moc-1.png"
-import downloadAppStore from "../assets/images/resources/downloadAppStore.png"
-import downloadGooglePlay from "../assets/images/resources/downloadGooglePlay.png"
+import CtaShape1 from "../assets/images/shapes/cta-1-shape-1.png";
+import CtaShape2 from "../assets/images/shapes/cta-1-shape-2.png";
+import CtaMoc1 from "../assets/images/resources/cta-1-moc-1.png";
+import downloadAppStore from "../assets/images/resources/downloadAppStore.png";
+import downloadGooglePlay from "../assets/images/resources/downloadGooglePlay.png";
 const CTAOne = () => {
   return (
     <section className="cta-one" id="features">
@@ -22,7 +22,7 @@ const CTAOne = () => {
                 textAlign="center"
                 // paraText="Feature List"
                 titleText={
-                  <div className="text-right text-size-large">
+                  <div className="text-right text-size-large div-title-1">
                     <span>Take Control of Your Finances</span>
                     <br />
                     <span className="text-highlight">Effortlessly</span>
@@ -61,7 +61,7 @@ const CTAOne = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default CTAOne
+export default CTAOne;
