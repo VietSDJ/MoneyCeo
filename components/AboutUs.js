@@ -1,8 +1,8 @@
-import React from "react";
-import BlockTitle from "./BlockTitle";
-import CEO from "../assets/images/Team/MarshallPoh.png";
-import CTO from "../assets/images/Team/LeQuangKhai.png";
-import PrettyEllipse from "../assets/images/shapes/pretty-ellipse.png";
+import React from "react"
+import BlockTitle from "./BlockTitle"
+import CEO from "../assets/images/Team/MarshallPoh.png"
+import CTO from "../assets/images/Team/LeQuangKhai.png"
+import PrettyEllipse from "../assets/images/shapes/pretty-ellipse.png"
 
 const AboutUs = () => {
   return (
@@ -52,7 +52,7 @@ const AboutUs = () => {
             />
             <div className="title-author">
               <p className="p-hightlight">Meet Marshall Poh, CEO of Moneymap</p>
-              <p>
+              <p className="text-right">
                 With over 11 years of experience in banking and finance,
                 Marshall Poh is a seasoned leader and visionary entrepreneur. As
                 the winner of the NTU Aspiring Entrepreneurs competition,
@@ -90,7 +90,7 @@ const AboutUs = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default AboutUs;
+export default AboutUs

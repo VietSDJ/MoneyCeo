@@ -1,6 +1,6 @@
-import React, { useContext } from "react";
+import React, { useContext } from "react"
 
-import FooterLogo from "../assets/images/logo-footer.png";
+import FooterLogo from "../assets/images/logo-footer.png"
 
 const Footer = () => {
   return (
@@ -83,54 +83,11 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="footer-widget__content_1 footer-mobile">
-              <div className="col-lg-8">
-                <a href="index.html">
-                  <img src={FooterLogo} width="129" alt="" />
-                </a>
-                <p className="footer-company">Money Map Joint Stock Company</p>
-                <div className="row">
-                  <div className="col-lg-2">
-                    <p>Address </p>
-                  </div>
-                  <div className="col-lg-10">
-                    <p>
-                      : 101 Marlow Street, #12-05 Clife Parkview, Singapore
-                      059020
-                    </p>
-                  </div>
-                  <div className="col-lg-2">
-                    <p>Hotline</p>
-                  </div>
-                  <div className="col-lg-10">
-                    <p>: +65 9988 9908</p>
-                  </div>
-                  <div className="col-lg-2">
-                    <p>Email</p>
-                  </div>
-                  <div className="col-lg-10">
-                    <p>: info@moneymap.asia</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4">
-                <div
-                  className="footer-widget__links-scroll"
-                  style={{ display: "flex", flexDirection: "column" }}
-                >
-                  <a href="#">About</a>
-                  <a href="#">Our Team</a>
-                  <a href="#">Contact</a>
-                  <a href="#">Terms of Use</a>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </footer>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

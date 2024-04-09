@@ -1,8 +1,8 @@
-import React from "react";
-import BlockTitle from "./BlockTitle";
-import Coin from "../assets/images/resources/coin.png";
+import React from "react"
+import BlockTitle from "./BlockTitle"
+import Coin from "../assets/images/resources/coin.png"
 
-import CtaMoc1 from "../assets/images/resources/double-phone-coin.png";
+import CtaMoc1 from "../assets/images/resources/double-phone-coin.png"
 const Rewards = () => {
   return (
     <section className="cta-one">
@@ -33,7 +33,7 @@ const Rewards = () => {
                 // paraText="Feature List"
                 titleText={
                   <div className="text-right text-size-large">
-                    <span className="text-highlight ">Earn Rewards</span>
+                    <span className="text-highlight ">Earn Rewards </span>
                     <br />
                     <span>While You Manage Your Money</span>
                   </div>
@@ -56,7 +56,7 @@ const Rewards = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Rewards;
+export default Rewards
