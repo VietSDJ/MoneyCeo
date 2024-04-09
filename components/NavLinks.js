@@ -48,7 +48,7 @@ const NavLinks = () => {
           offset={-70}
           duration={500}
         >
-          Careee
+          Career
         </ScrollLink>
       </li>
       <li>

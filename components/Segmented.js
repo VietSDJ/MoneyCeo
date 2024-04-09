@@ -62,8 +62,8 @@ const Segmented = () => {
             <div className="segmented__content">
               <p>
                 Make informed financial{" "}
-                <span className="p-bold">decisions</span> with{" "}
-                <span className="p-bold">confidence.</span>{" "}
+                <span className="p-bold">decisions</span>
+                <br /> with <span className="p-bold">confidence.</span>{" "}
               </p>
             </div>
             <div className="segmented__icon">
@@ -85,7 +85,11 @@ const Segmented = () => {
             <div className="segmented__content">
               <p>
                 Plan for your future with
-                <span className="p-bold"> clear financial goals. </span>
+                <span className="p-bold">
+                  {" "}
+                  clear <br />
+                  financial goals.{" "}
+                </span>
               </p>
             </div>
             <div className="segmented__icon">
@@ -108,7 +112,10 @@ const Segmented = () => {
             <div className="segmented__content">
               <p>
                 Finally achieve financial{" "}
-                <span className="p-bold">peace of mind. </span>
+                <span className="p-bold">
+                  <br />
+                  peace of mind.{" "}
+                </span>
               </p>
             </div>
           </div>
@@ -118,14 +125,14 @@ const Segmented = () => {
             </div>
             <div className="segmented__content">
               <p>
-                <span className="p-bold">Ready </span> to Take{" "}
-                <span className="p-bold">Charge </span>
+                <span className="p-bold">Ready </span>
+                <br /> to Take <span className="p-bold">Charge </span>
               </p>
             </div>
           </div>
           <div className="segmented__single single__card-6">
             <div className="segmented__content ">
-              <p className="p-bold">Download now</p>
+              <span className="p-bold">Download now</span>
             </div>
             <div className="dowload-app">
               <a href="#">

@@ -38,7 +38,7 @@ font-family: 'Quicksand', sans-serif;
 
 :root {
   --thm-font: "Quicksand", sans-serif;
-  --thm-base: #fd632f;
+  --thm-base: #F1CA3F;
   --thm-base-rgb: 253, 99, 47;
   --thm-primary: #4550f8;
   --thm-primary-rgb: 69, 80, 248;
@@ -4734,14 +4734,14 @@ a:visited {
 
 .segmented__content {
   overflow: hidden;
-
+  width: 100%;
 
 }
 
 .segmented__content p {
   color: var(--MM-Blue-1, #2A5C97);
   font-family: Quicksand;
-  font-size: 25px;
+  font-size: 21px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -4755,8 +4755,7 @@ a:visited {
 
 .p-bold {
   color: var(--MM-Blue-1, #2A5C97);
-
-  font-size: 25px;
+  font-size: 21px;
   font-style: normal;
   font-weight: 700;
   line-height: 38px;
