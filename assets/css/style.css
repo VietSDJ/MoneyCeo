@@ -80,18 +80,11 @@ a:visited {
   vertical-align: middle;
   border: none;
   outline: none;
-  background-image: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(var(--thm-primary)),
-      to(var(--thm-base)));
-  background-image: linear-gradient(90deg,
-      var(--thm-primary) 0%,
-      var(--thm-base) 100%);
+  background: var(--MM-Y-1, #F1CA3F);
   border-radius: 5px;
   font-size: 16px;
   font-weight: bold;
-  color: #fff;
+  color: var(--MM-Y-1, #F1CA3F);
   padding: 13px 50px;
   position: relative;
   -webkit-transition: all 0.4s ease;
@@ -122,11 +115,11 @@ a:visited {
   background-image: -webkit-gradient(linear,
       left top,
       right top,
-      from(var(--thm-base)),
-      to(var(--thm-primary)));
+      from(var(--MM-Y-1, #F1CA3F)),
+      to(var(--MM-Y-1, #F1CA3F)));
   background-image: linear-gradient(90deg,
-      var(--thm-base) 0%,
-      var(--thm-primary) 100%);
+      var(--MM-Y-1, #F1CA3F) 0%,
+      var(--MM-Y-1, #F1CA3F) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -186,14 +179,12 @@ a:visited {
 }
 
 .block-title p {
-  margin: 0;
-  line-height: 1em;
+  color: #737789;
+  font-family: Quicksand;
   font-size: 18px;
-  font-weight: 600;
-  color: var(--thm-base);
-  position: relative;
-  white-space: pre-line;
-  top: -3px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .block-title h3 {
@@ -1082,7 +1073,7 @@ a:visited {
 
 .banner-one__content p {
   margin: 0;
-  margin-bottom: 53px;
+  margin-bottom: 20px;
 }
 
 .banner-one__video {
@@ -2470,8 +2461,8 @@ a:visited {
 --------------------------------------------------------------*/
 
 .contact-one {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   position: relative;
 }
 
@@ -2480,7 +2471,7 @@ a:visited {
 }
 
 .contact-one__bg-shape-1 {
-  bottom: -90px;
+  bottom: -190px;
   right: 0;
 }
 
@@ -2799,6 +2790,28 @@ a:visited {
 
 }
 
+
+[class*="thriving__bg-sub-"] {
+  position: absolute;
+}
+
+.thriving__bg-sub-1 {
+  left: -50px;
+  bottom: 168px;
+}
+
+.thriving__bg-sub-2 {
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 140px;
+}
+
+.thriving__bg-sub-3 {
+  right: -30px;
+  bottom: 10px;
+}
+
 .cta-one {
   position: relative;
   padding-top: 185px;
@@ -2856,6 +2869,43 @@ a:visited {
 
 }
 
+
+[class*="author-one__bg-radial-"] {
+  position: absolute;
+  z-index: -1;
+}
+
+.author-one__bg-radial-1 {
+  top: 80px;
+  right: 416px;
+}
+
+.author-one__bg-radial-2 {
+  left: 177px;
+  top: 300px;
+
+}
+
+.author-one__bg-radial-3 {
+  right: 122px;
+
+  bottom: 100px;
+
+}
+
+.author-one__bg-radial-4 {
+  left: 483px;
+
+  bottom: 0;
+
+}
+
+.author-one__bg-radial-5 {
+  left: 483px;
+
+  bottom: 0;
+
+}
 
 [class*="cta-one__bg-coin-"] {
   position: absolute;
@@ -2943,11 +2993,13 @@ a:visited {
 }
 
 .cta-one__text p {
-  margin: 0;
   color: #737789;
-  font-size: 24px;
-  line-height: 40px;
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
   font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
 }
 
 .cta-one__list {
@@ -4637,6 +4689,31 @@ a:visited {
 .segmented__content {
   overflow: hidden;
 
+
+}
+
+.segmented__content p {
+  color: var(--MM-Blue-1, #2A5C97);
+  font-family: Quicksand;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.subtitle-bold {
+  color: var(--MM-Blue-1, #2A5C97);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.p-bold {
+  color: var(--MM-Blue-1, #2A5C97);
+
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
 }
 
 .segmented__icon {
@@ -4670,7 +4747,7 @@ a:visited {
 /* CARD AUTHOR */
 .cta-author {
   position: relative;
-  padding-top: 200px;
+  padding-top: 60px;
   margin-bottom: 200px;
 }
 
@@ -4693,6 +4770,24 @@ a:visited {
 .title-author {
   display: flex;
   flex-direction: column;
+}
+
+.title-author p {
+  color: #737789;
+  text-align: justify;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  /* 166.667% */
+}
+
+.title-author .p-hightlight {
+  color: var(--MM-Blue-1, #2A5C97);
+
+  font-size: 25px;
+  font-weight: 700;
+
 }
 
 /* CARD CAREER */
@@ -4749,4 +4844,40 @@ a:visited {
 .text-size-small {
   font-size: 18px;
   font-weight: 500;
+}
+
+.p-default {
+  color: #737789;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+
+.dowload-app {
+  display: flex;
+  gap: 13px;
+}
+
+.text-highlight {
+  color: #F1CA3F;
+}
+
+.thriving-thriving {
+  display: flex;
+  gap: 35px;
+}
+
+.thriving-subtitle {
+  margin-top: 25px;
+}
+
+.thriving-thriving p {
+  max-width: 220px;
+}
+
+[class*="col-lg-"] {
+  padding-right: 8px;
+  padding-left: 8px;
 }

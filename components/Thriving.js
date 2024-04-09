@@ -37,41 +37,74 @@ const Thriving = () => {
               <span className="text-size-large">
                 Stop Dreading Your Bank Account
               </span>
-              <br /> <span className="text-size-large">Start Thriving</span>
+              <br />
+              <div className="thriving-thriving">
+                <span className="text-highlight text-size-large">
+                  Start Thriving
+                </span>
+                <p className="thriving-subtitle">
+                  Actionable Insights &{" "}
+                  <span className="subtitle-bold">Smart </span>
+                  Forecasting
+                </p>
+                <p className="thriving-subtitle">
+                  MoneyCEO doesn’t just show you where your money goes,{" "}
+                  <span className="subtitle-bold">
+                    it helps you understand why
+                  </span>
+                </p>
+                <p className="thriving-subtitle">
+                  Our <span className="subtitle-bold"> AI</span>-powered
+                  analytics{" "}
+                  <span className="subtitle-bold">
+                    predict future cash flow
+                  </span>{" "}
+                  and identify areas for optimization
+                </p>
+              </div>
             </div>
           }
         />
         <div className="row ">
           <div className="col-lg-4 text-center">
             <BlockMessage
+              locClass="thriving__bg-sub-1"
+              maxWidth={284}
               textAlign="left"
               titleText={
-                <div>
-                  <span className="text-message">
-                    Hey there CEO! Our AI noticed a recent increase in fashion
-                    spending. Would you like to see a breakdown and set a new
-                    budget for this category
-                  </span>
+                <div className="text-message">
+                  <p>
+                    Hey there <span className="text-highlight">CEO</span>!
+                  </p>
+                  <p>Our AI noticed a recent increase in fashion spending.</p>
+                  <p>
+                    Would you like to see a breakdown and set a new budget for
+                    this category
+                  </p>
                 </div>
               }
             />
             <img
               src={MockupPortrait}
-              className="wow fadeInUp"
+              className="wow fadeInUp "
               style={{ height: "582px", marginBottom: 55 }}
               data-wow-duration="1500ms"
               alt=""
             />
           </div>
-          <div className="col-lg-4 text-center">
+          <div className="col-lg-4 text-center ">
             <BlockMessage
+              locClass="thriving__bg-sub-2"
               textAlign="left"
               titleText={
-                <div>
-                  <span className="text-message">
-                    “Heads up, CEO! Based on upcoming bills and recurring
-                    expenses, you might have a slight cash flow shortage!”
-                  </span>
+                <div className="text-message">
+                  <p>
+                    “Heads up, <span className="text-highlight">CEO</span>!
+                  </p>
+                  <p>
+                    Based on upcoming bills and recurring expenses, you might
+                    have a slight cash flow shortage!”
+                  </p>
                 </div>
               }
             />
@@ -85,14 +118,16 @@ const Thriving = () => {
           </div>
           <div className="col-lg-4 text-center ">
             <BlockMessage
+              locClass="thriving__bg-sub-3"
+              maxWidth={250}
               textAlign="left"
               titleText={
-                <div>
-                  <span className="text-message">
+                <div className="text-message">
+                  <p>
                     “Based on your spending habits and financial goals, Money
                     CEO recommends allocating more funds towards savings. This
                     could help you achieve your goal faster”
-                  </span>
+                  </p>
                 </div>
               }
             />

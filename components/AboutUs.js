@@ -2,10 +2,41 @@ import React from "react"
 import BlockTitle from "./BlockTitle"
 import CEO from "../assets/images/Team/MarshallPoh.png"
 import CTO from "../assets/images/Team/LeQuangKhai.png"
+import PrettyEllipse from "../assets/images/shapes/pretty-ellipse.png"
 
 const AboutUs = () => {
   return (
     <section className="cta-author" id="aboutUs">
+      <img
+        src={PrettyEllipse}
+        className="author-one__bg-radial-1"
+        style={{ width: "99px" }}
+        alt=""
+      />
+      <img
+        src={PrettyEllipse}
+        className="author-one__bg-radial-2"
+        style={{ width: "148px" }}
+        alt=""
+      />
+      <img
+        src={PrettyEllipse}
+        className="author-one__bg-radial-3"
+        style={{ width: "50px" }}
+        alt=""
+      />
+      <img
+        src={PrettyEllipse}
+        className="author-one__bg-radial-4"
+        style={{ width: "99px" }}
+        alt=""
+      />
+      <img
+        src={PrettyEllipse}
+        className="author-one__bg-radial-5"
+        style={{ width: "99px" }}
+        alt=""
+      />
       <div className="container">
         <BlockTitle
           textAlign="center"
@@ -20,7 +51,7 @@ const AboutUs = () => {
               alt=""
             />
             <div className="title-author">
-              <p>Meet Marshall Poh, CEO of Moneymap</p>
+              <p className="p-hightlight">Meet Marshall Poh, CEO of Moneymap</p>
               <p>
                 With over 11 years of experience in banking and finance,
                 Marshall Poh is a seasoned leader and visionary entrepreneur. As
@@ -34,26 +65,28 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-        <div className="text-right">
-          <div className="card-author">
-            <div className="title-author">
-              <p>Meet Le Quang Khai (Kevin Le), CTO of Moneymap</p>
-              <p>
-                Kevin Le, with 18 years of experience in Information Technology
-                (IT) for Property and Finance Company, brings a wealth of
-                knowledge and expertise to the table. In developing the
-                financial management mobile app "Money CEO," Kevin's insights
-                and leadership can drive innovation and inspire the team in
-                several ways
-              </p>
-            </div>
-            <img
-              src={CTO}
-              className="img-author"
-              style={{ width: "345px" }}
-              alt=""
-            />
+        <div className="card-author">
+          <div className="title-author">
+            <p className="p-hightlight text-right">
+              Meet Le Quang Khai (Kevin Le), CTO of Moneymap
+            </p>
+            <p className="text-right">
+              Kevin Le, with 18 years of experience in Information Technology
+              (IT) for Property and Finance Company, brings a wealth of
+              knowledge and expertise to the table. In developing the financial
+              management mobile app "Money CEO,"
+            </p>
+            <p className="text-right">
+              Kevin's insights and leadership can drive innovation and inspire
+              the team in several ways
+            </p>
           </div>
+          <img
+            src={CTO}
+            className="img-author"
+            style={{ width: "345px" }}
+            alt=""
+          />
         </div>
       </div>
     </section>

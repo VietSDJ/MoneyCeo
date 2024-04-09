@@ -16,18 +16,16 @@ const Contact = () => {
               titleText={`Have Question? Write \n a Message`}
             />
             <div className="row">
-              <div className="col-lg-6">
-                <input type="text" placeholder="Name" name="name" />
+              <div className="col-lg-6 col-padding">
+                <input type="text" placeholder="First Name" name="firstName" />
               </div>
               <div className="col-lg-6">
+                <input type="text" placeholder="Last Name" name="lastName" />
+              </div>
+              <div className="col-lg-12">
                 <input type="text" placeholder="Email Address" name="email" />
               </div>
-              <div className="col-lg-6">
-                <input type="text" placeholder="Subject" name="subject" />
-              </div>
-              <div className="col-lg-6">
-                <input type="text" placeholder="Phone Number" name="phone" />
-              </div>
+
               <div className="col-lg-12">
                 <textarea placeholder="Write Message" name="message"></textarea>
               </div>

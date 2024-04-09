@@ -61,32 +61,33 @@ const Banner = () => {
                 Introducing <br /> the World’s First <br /> Personal Cash Flow
               </h3>
               <div className="col-lg-9">
+                <p>Revolutionize Your Relationship with Money </p>
                 <p>
-                  Revolutionize Your Relationship with Money <br /> MoneyCEO is
-                  more than just a budgeting app. It's a financial game-changer,
-                  designed to empower you with complete control over your cash
-                  flow.
-                  <br />
-                  MoneyCEO: Finally, Cash Flow Made Easy
+                  MoneyCEO is more than just a budgeting app. It's a financial
+                  game-changer, designed to empower you with complete control
+                  over your cash flow.
                 </p>
+                <p>MoneyCEO: Finally, Cash Flow Made Easy</p>
               </div>
               {/* <a href="#" className="thm-btn banner-one__btn">
                 <span>Discover More</span>
               </a> */}
-              <a href="#">
-                <img
-                  src={downloadGooglePlay}
-                  alt="Download from Google Play"
-                  style={{ height: "60px" }}
-                />
-              </a>
-              <a href="#">
-                <img
-                  src={downloadAppStore}
-                  alt="Download from App Store"
-                  style={{ height: "60px" }}
-                />
-              </a>
+              <div className="dowload-app">
+                <a href="#">
+                  <img
+                    src={downloadGooglePlay}
+                    alt="Download from Google Play"
+                    style={{ height: "60px" }}
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src={downloadAppStore}
+                    alt="Download from App Store"
+                    style={{ height: "60px" }}
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>

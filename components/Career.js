@@ -21,15 +21,17 @@ const Career = () => {
             <div className="cta-one__content">
               <BlockTitle textAlign="left" titleText={<span>Career</span>} />
               <div className="text-left w-100">
-                <p>We Are Looking for Talented People Like You</p>
+                <p className="p-bold">
+                  We Are Looking for Talented People Like You
+                </p>
                 <p>
                   We are always on the lookout for talented people like you to
                   join our team. As a dynamic and forward-thinking firm, we
                   value diversity, innovation, and excellence in everything we
                   do. If you're passionate about making a difference, driving
                   success, and shaping the future, we invite you to explore
-                  exciting career opportunities with us. Send your cv to
-                  mm@moneymap.sg
+                  exciting career opportunities with us. Send your cv to{" "}
+                  <a href="#">mm@moneymap.sg</a>
                 </p>
               </div>
             </div>

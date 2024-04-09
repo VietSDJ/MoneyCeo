@@ -25,12 +25,12 @@ const CTAOne = () => {
                   <div className="text-right text-size-large">
                     <span>Take Control of Your Finances</span>
                     <br />
-                    <span>Effortlessly</span>
+                    <span className="text-highlight">Effortlessly</span>
                   </div>
                 }
               />
               <div className="text-right w-100 flex-content-end">
-                <div className="are-45 ">
+                <div className="are-45 cta-one__text">
                   <p>Effortless Tracking & Transparency:</p>
                   <p>
                     Say goodbye to spreadsheets and endless calculations.
@@ -38,20 +38,22 @@ const CTAOne = () => {
                     providing real- time insights into your financial health.
                   </p>
                   <p>Take Control of Your Cash Flow Today</p>
-                  <a href="#">
-                    <img
-                      src={downloadGooglePlay}
-                      alt="Download from Google Play"
-                      style={{ height: "60px" }}
-                    />
-                  </a>
-                  <a href="#">
-                    <img
-                      src={downloadAppStore}
-                      alt="Download from App Store"
-                      style={{ height: "60px" }}
-                    />
-                  </a>
+                  <div className="dowload-app flex-content-end">
+                    <a href="#">
+                      <img
+                        src={downloadGooglePlay}
+                        alt="Download from Google Play"
+                        style={{ height: "60px" }}
+                      />
+                    </a>
+                    <a href="#">
+                      <img
+                        src={downloadAppStore}
+                        alt="Download from App Store"
+                        style={{ height: "60px" }}
+                      />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
