@@ -347,11 +347,11 @@ a:visited {
       left top,
       left bottom,
       from(var(--thm-base)),
-      color-stop(51%, var(--thm-primary)),
+      color-stop(51%, var(--thm-base)),
       to(var(--thm-base)));
   background-image: linear-gradient(180deg,
       var(--thm-base) 0%,
-      var(--thm-primary) 51%,
+      var(--thm-base) 51%,
       var(--thm-base) 100%);
   position: fixed;
   bottom: 40px;

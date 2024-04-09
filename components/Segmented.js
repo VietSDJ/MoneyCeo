@@ -42,7 +42,7 @@ const Segmented = () => {
         />
 
         <BlockTitle
-          textAlign="left"
+          textAlign="center"
           // paraText="Feature List"
           titleText={
             <div>

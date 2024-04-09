@@ -37,20 +37,20 @@ const Footer = () => {
                       <p>Email</p>
                     </div>
                     <div className="col-lg-10">
-                      <p>: info@moneymap.asia</p>
+                      <p>: support@moneymap.sg</p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              {/* <div className="col-lg-6">
                 <div className="footer-widget__links-scroll">
                   <a href="#">About</a>
                   <a href="#">Our Team</a>
                   <a href="#">Contact</a>
                   <a href="#">Terms of Use</a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

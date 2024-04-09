@@ -28,7 +28,12 @@ const Contact = () => {
           alt=""
         />
         <div className="are-45">
-          <form className="contact-form-validated contact-one__form">
+          <form
+            action="mailto:vietsdj@gmail.com"
+            method="post"
+            enctype="text/plain"
+            className="contact-form-validated contact-one__form"
+          >
             <BlockTitle
               textAlign="left"
               paraText="Contact Now"
@@ -36,17 +41,38 @@ const Contact = () => {
             />
             <div className="row">
               <div className="col-lg-6 col-padding">
-                <input type="text" placeholder="First Name" name="firstName" />
+                <input
+                  type="text"
+                  placeholder="First Name *"
+                  name="firstName"
+                  required
+                />
               </div>
               <div className="col-lg-6">
-                <input type="text" placeholder="Last Name" name="lastName" />
+                <input
+                  type="text"
+                  placeholder="Last Name *"
+                  name="lastName"
+                  required
+                />
               </div>
               <div className="col-lg-12">
-                <input type="text" placeholder="Email Address" name="email" />
+                <input
+                  type="text"
+                  placeholder="Email Address *"
+                  name="email"
+                  required
+                />
               </div>
-
               <div className="col-lg-12">
-                <textarea placeholder="Write Message" name="message"></textarea>
+                <input type="text" placeholder="Phone number" name="phone" />
+              </div>
+              <div className="col-lg-12">
+                <textarea
+                  placeholder="Write Message *"
+                  required
+                  name="message"
+                ></textarea>
               </div>
               <div className="col-lg-12 text-left">
                 <button type="submit" className="thm-btn contact-one__btn">
