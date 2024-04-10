@@ -6,6 +6,7 @@ import CtaShape2 from "../assets/images/shapes/cta-1-shape-2.png";
 import CtaMoc1 from "../assets/images/resources/cta-1-moc-1.png";
 import downloadAppStore from "../assets/images/resources/downloadAppStore.png";
 import downloadGooglePlay from "../assets/images/resources/downloadGooglePlay.png";
+import ModalUpdateInFuture from "./ModalUpdateInFuture";
 const CTAOne = () => {
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
@@ -15,12 +16,23 @@ const CTAOne = () => {
       setIsMobile(false);
     }
   }, []);
-
+  const [open, setOpen] = useState({
+    isOpen: false,
+  })
+  const openModal = () => {
+    setOpen({
+      isOpen: true,
+    })
+  }
   return (
     <section className="cta-one" id="features" >
       <img src={CtaShape1} className="cta-one__bg-shape-1" alt="" />
       <img src={CtaShape2} className="cta-one__bg-shape-2" alt="" />
       <div className="container">
+      <ModalUpdateInFuture
+          isOpen={open?.isOpen}
+          onClose={() => setOpen({ isOpen: false })}
+        />
         <div className="cta-one__moc wow fadeInLeft" data-wow-duration="1500ms">
           <img src={CtaMoc1} className="cta-one__moc-img" alt="" />
         </div>
@@ -52,14 +64,14 @@ const CTAOne = () => {
                   </p>
                   <p>Take Control of Your Cash Flow Today</p>
                   <div className="dowload-app flex-content-end">
-                    <a href="#">
+                    <a onClick={openModal}>
                       <img
                         src={downloadGooglePlay}
                         alt="Download from Google Play"
                         style={{ height: "60px" }}
                       />
                     </a>
-                    <a href="#">
+                    <a onClick={openModal}>
                       <img
                         src={downloadAppStore}
                         alt="Download from App Store"

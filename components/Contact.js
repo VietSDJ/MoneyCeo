@@ -5,6 +5,10 @@ import ContactImage from "../assets/images/resources/contact-1-1.jpg"
 import RadialCircle from "../assets/images/shapes/RadialCircle.png"
 
 const Contact = () => {
+  const sendMail = () => {
+    console.log("abc")
+  }
+
   return (
     <section className="contact-one" id="contactUs">
       <div className="flex-content-center">
@@ -75,7 +79,11 @@ const Contact = () => {
                 ></textarea>
               </div>
               <div className="col-lg-12 text-left text-mb-center">
-                <button type="submit" className="thm-btn contact-one__btn">
+                <button
+                  type="submit"
+                  onClick={sendMail}
+                  className="thm-btn contact-one__btn"
+                >
                   <span>Send Message</span>
                 </button>
               </div>

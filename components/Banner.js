@@ -26,10 +26,10 @@ const Banner = () => {
         style={{ backgroundImage: `url(${BannerBG})` }}
       ></div>
       <div className="container">
-        {/* <ModalUpdateInFuture
-          showModal={open}
+        <ModalUpdateInFuture
+          isOpen={open?.isOpen}
           onClose={() => setOpen({ isOpen: false })}
-        /> */}
+        />
         <div className="banner-one__video video-popup"></div>
         <div className="banner-one__moc">
           <img

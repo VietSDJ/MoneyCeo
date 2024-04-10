@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import BlockTitle from "./BlockTitle"
 import MockupPortrait from "../assets/images/resources/mockup-portrait1.png"
 import RadialCircle from "../assets/images/shapes/RadialCircle.png"
@@ -11,10 +11,22 @@ import Smiley from "../assets/images/resources/final-Smiley.png"
 import GoogleMiniIcon from "../assets/images/resources/GoogleStoreMiniIcon.png"
 import AppStoreMiniIcon from "../assets/images/resources/appleStoreMiniIcon.png"
 
-import downloadGooglePlay from "../assets/images/resources/downloadGooglePlay.png"
+import ModalUpdateInFuture from "./ModalUpdateInFuture"
 const Segmented = () => {
+  const [open, setOpen] = useState({
+    isOpen: false,
+  })
+  const openModal = () => {
+    setOpen({
+      isOpen: true,
+    })
+  }
   return (
     <section className="service-one">
+      <ModalUpdateInFuture
+        isOpen={open?.isOpen}
+        onClose={() => setOpen({ isOpen: false })}
+      />
       <img
         src={PrettyEllipse}
         className="seg-one__bg-radial-2"
@@ -137,10 +149,10 @@ const Segmented = () => {
               </p>
             </div>
             <div className="dowload-app">
-              <a href="#">
+              <a onClick={openModal}>
                 <img src={GoogleMiniIcon} alt="" />
               </a>
-              <a href="#">
+              <a onClick={openModal}>
                 <img src={AppStoreMiniIcon} alt="" />
               </a>
             </div>

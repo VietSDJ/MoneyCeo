@@ -4,10 +4,23 @@ import MockupPortrait from "../assets/images/resources/mockup-portrait.png"
 
 import downloadAppStore from "../assets/images/resources/downloadAppStore.png"
 import downloadGooglePlay from "../assets/images/resources/downloadGooglePlay.png"
+import ModalUpdateInFuture from "./ModalUpdateInFuture"
 const Services = () => {
+  const [open, setOpen] = useState({
+    isOpen: false,
+  })
+  const openModal = () => {
+    setOpen({
+      isOpen: true,
+    })
+  }
   return (
     <section className="service-one">
       <div className="container">
+        <ModalUpdateInFuture
+          isOpen={open?.isOpen}
+          onClose={() => setOpen({ isOpen: false })}
+        />
         <BlockTitle
           textAlign="left"
           // paraText="Feature List"
@@ -93,14 +106,14 @@ const Services = () => {
               alt=""
             />
 
-            <a href="#">
+            <a onClick={openModal}>
               <img
                 src={downloadGooglePlay}
                 alt="Download from Google Play"
                 style={{ height: "60px" }}
               />
             </a>
-            <a href="#">
+            <a onClick={openModal}>
               <img
                 src={downloadAppStore}
                 alt="Download from App Store"

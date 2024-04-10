@@ -571,7 +571,7 @@
     margin-top: 10px;
   }
 
-  .dowload-app img {
+  .segmented__single .dowload-app img {
 
     width: 80px;
   }
@@ -626,7 +626,7 @@
   }
 
   .segmented__content p {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 0;
   }
 
