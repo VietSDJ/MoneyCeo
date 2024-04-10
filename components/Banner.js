@@ -6,6 +6,7 @@ import BannerBG from "../assets/images/resources/banner-elipse.jpg"
 import BannerMoc from "../assets/images/resources/phoneHomePage.png"
 import downloadAppStore from "../assets/images/resources/downloadAppStore.png"
 import downloadGooglePlay from "../assets/images/resources/downloadGooglePlay.png"
+import ModalUpdateInFuture from "./ModalUpdateInFuture"
 
 const Banner = () => {
   const [open, setOpen] = useState({
@@ -25,16 +26,11 @@ const Banner = () => {
         style={{ backgroundImage: `url(${BannerBG})` }}
       ></div>
       <div className="container">
-        {/* <ModalVideo
-          channel="youtube"
-          isOpen={open.isOpen}
-          videoId="Kl5B6MBAntI"
+        {/* <ModalUpdateInFuture
+          showModal={open}
           onClose={() => setOpen({ isOpen: false })}
         /> */}
-        <div
-          onClick={openModal}
-          className="banner-one__video video-popup"
-        ></div>
+        <div className="banner-one__video video-popup"></div>
         <div className="banner-one__moc">
           <img
             src={BannerMoc}
@@ -73,14 +69,14 @@ const Banner = () => {
                 <span>Discover More</span>
               </a> */}
               <div className="dowload-app">
-                <a href="#">
+                <a onClick={openModal}>
                   <img
                     src={downloadGooglePlay}
                     alt="Download from Google Play"
                     style={{ height: "60px" }}
                   />
                 </a>
-                <a href="#">
+                <a onClick={openModal}>
                   <img
                     src={downloadAppStore}
                     alt="Download from App Store"

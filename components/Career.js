@@ -1,8 +1,8 @@
-import React from "react";
-import BlockTitle from "./BlockTitle";
-import TeamShape1 from "../assets/images/shapes/team-1-bg-1-1.png";
-import TeamShape2 from "../assets/images/shapes/team-1-bg-1-2.png";
-import Pannel from "../assets/images/resources/career-pal.png";
+import React from "react"
+import BlockTitle from "./BlockTitle"
+import TeamShape1 from "../assets/images/shapes/team-1-bg-1-1.png"
+import TeamShape2 from "../assets/images/shapes/team-1-bg-1-2.png"
+import Pannel from "../assets/images/resources/career-pal.png"
 
 const Career = () => {
   return (
@@ -19,7 +19,7 @@ const Career = () => {
                 <p className="p-bold text-justify">
                   We Are Looking for Talented People Like You
                 </p>
-                <p className="text-justify">
+                <p className="text-start">
                   We are always on the lookout for talented people like you to
                   join our team. As a dynamic and forward-thinking firm, we
                   value diversity, innovation, and excellence in everything we
@@ -34,7 +34,7 @@ const Career = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Career;
+export default Career

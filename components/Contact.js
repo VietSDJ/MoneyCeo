@@ -1,12 +1,12 @@
-import React from "react";
-import BlockTitle from "./BlockTitle";
-import ContactBgShape from "../assets/images/shapes/contact-bg-shape-1-1.png";
-import ContactImage from "../assets/images/resources/contact-1-1.jpg";
-import RadialCircle from "../assets/images/shapes/RadialCircle.png";
+import React from "react"
+import BlockTitle from "./BlockTitle"
+import ContactBgShape from "../assets/images/shapes/contact-bg-shape-1-1.png"
+import ContactImage from "../assets/images/resources/contact-1-1.jpg"
+import RadialCircle from "../assets/images/shapes/RadialCircle.png"
 
 const Contact = () => {
   return (
-    <section className="container contact-one" id="contactUs">
+    <section className="contact-one" id="contactUs">
       <div className="flex-content-center">
         <img src={ContactBgShape} className="contact-one__bg-shape-1" alt="" />
         <img
@@ -74,7 +74,7 @@ const Contact = () => {
                   name="message"
                 ></textarea>
               </div>
-              <div className="col-lg-12 text-left">
+              <div className="col-lg-12 text-left text-mb-center">
                 <button type="submit" className="thm-btn contact-one__btn">
                   <span>Send Message</span>
                 </button>
@@ -85,7 +85,7 @@ const Contact = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

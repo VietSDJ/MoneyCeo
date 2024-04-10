@@ -17,14 +17,14 @@ const CTAOne = () => {
   }, []);
 
   return (
-    <section className="cta-one" id="features">
+    <section className="cta-one" id="features" >
       <img src={CtaShape1} className="cta-one__bg-shape-1" alt="" />
       <img src={CtaShape2} className="cta-one__bg-shape-2" alt="" />
       <div className="container">
         <div className="cta-one__moc wow fadeInLeft" data-wow-duration="1500ms">
           <img src={CtaMoc1} className="cta-one__moc-img" alt="" />
         </div>
-        <div className="row justify-content-end">
+        <div className="row justify-content-end " >
           <div className="col-lg-12 ">
             <div className="cta-one__content">
               <BlockTitle

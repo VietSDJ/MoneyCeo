@@ -1,17 +1,17 @@
-import React from "react";
-import BlockTitle from "./BlockTitle";
-import MockupPortrait from "../assets/images/resources/mockup-portrait1.png";
-import RadialCircle from "../assets/images/shapes/RadialCircle.png";
-import PrettyEllipse from "../assets/images/shapes/pretty-ellipse.png";
-import HandFist from "../assets/images/resources/final-HandFist.png";
-import ChartPieSlice from "../assets/images/resources/final-ChartPieSlice.png";
-import CaretDoubleRight from "../assets/images/resources/final-CaretDoubleRight.png";
-import Scales from "../assets/images/resources/final-Scales.png";
-import Smiley from "../assets/images/resources/final-Smiley.png";
-import GoogleMiniIcon from "../assets/images/resources/GoogleStoreMiniIcon.png";
-import AppStoreMiniIcon from "../assets/images/resources/appleStoreMiniIcon.png";
+import React from "react"
+import BlockTitle from "./BlockTitle"
+import MockupPortrait from "../assets/images/resources/mockup-portrait1.png"
+import RadialCircle from "../assets/images/shapes/RadialCircle.png"
+import PrettyEllipse from "../assets/images/shapes/pretty-ellipse.png"
+import HandFist from "../assets/images/resources/final-HandFist.png"
+import ChartPieSlice from "../assets/images/resources/final-ChartPieSlice.png"
+import CaretDoubleRight from "../assets/images/resources/final-CaretDoubleRight.png"
+import Scales from "../assets/images/resources/final-Scales.png"
+import Smiley from "../assets/images/resources/final-Smiley.png"
+import GoogleMiniIcon from "../assets/images/resources/GoogleStoreMiniIcon.png"
+import AppStoreMiniIcon from "../assets/images/resources/appleStoreMiniIcon.png"
 
-import downloadGooglePlay from "../assets/images/resources/downloadGooglePlay.png";
+import downloadGooglePlay from "../assets/images/resources/downloadGooglePlay.png"
 const Segmented = () => {
   return (
     <section className="service-one">
@@ -45,7 +45,7 @@ const Segmented = () => {
           textAlign="center"
           // paraText="Feature List"
           titleText={
-            <div className="text-start">
+            <div className="text-center">
               <span className="text-size-large">
                 Financial <span className="text-highlight ">Freedom</span>{" "}
                 Starts Here
@@ -67,7 +67,7 @@ const Segmented = () => {
               </p>
             </div>
             <div className="segmented__icon">
-              <img src={HandFist} style={{ width: "100px" }} alt="" />
+              <img src={HandFist} alt="" />
             </div>
           </div>
           <div className="segmented__single single__card-2">
@@ -78,7 +78,7 @@ const Segmented = () => {
               </p>
             </div>
             <div className="segmented__icon">
-              <img src={Scales} style={{ width: "100px" }} alt="" />
+              <img src={Scales} alt="" />
             </div>
           </div>
           <div className="segmented__single single__card-3">
@@ -93,7 +93,7 @@ const Segmented = () => {
               </p>
             </div>
             <div className="segmented__icon">
-              <img src={ChartPieSlice} style={{ width: "100px" }} alt="" />
+              <img src={ChartPieSlice} alt="" />
             </div>
           </div>
           <div>
@@ -107,7 +107,7 @@ const Segmented = () => {
           </div>
           <div className="segmented__single single__card-4">
             <div className="segmented__icon">
-              <img src={Smiley} style={{ width: "100px" }} alt="" />
+              <img src={Smiley} alt="" />
             </div>
             <div className="segmented__content">
               <p>
@@ -121,7 +121,7 @@ const Segmented = () => {
           </div>
           <div className="segmented__single single__card-5">
             <div className="segmented__icon">
-              <img src={CaretDoubleRight} style={{ width: "100px" }} alt="" />
+              <img src={CaretDoubleRight} alt="" />
             </div>
             <div className="segmented__content">
               <p>
@@ -132,21 +132,23 @@ const Segmented = () => {
           </div>
           <div className="segmented__single single__card-6">
             <div className="segmented__content ">
-              <span className="p-bold">Download now</span>
+              <p>
+                <span className="p-bold">Download now</span>
+              </p>
             </div>
             <div className="dowload-app">
               <a href="#">
-                <img src={GoogleMiniIcon} style={{ width: "100px" }} alt="" />
+                <img src={GoogleMiniIcon} alt="" />
               </a>
               <a href="#">
-                <img src={AppStoreMiniIcon} style={{ width: "100px" }} alt="" />
+                <img src={AppStoreMiniIcon} alt="" />
               </a>
             </div>
           </div>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Segmented;
+export default Segmented

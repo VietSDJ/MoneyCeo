@@ -51,8 +51,11 @@ const AboutUs = () => {
               alt=""
             />
             <div className="title-author">
-              <p className="p-hightlight">Meet Marshall Poh, CEO of Moneymap</p>
-              <p className="text-right">
+              <p className="p-hightlight">
+                Meet Marshall Poh
+                <br /> CEO of Moneymap
+              </p>
+              <p className="text-left text-mb-justify">
                 With over 11 years of experience in banking and finance,
                 Marshall Poh is a seasoned leader and visionary entrepreneur. As
                 the winner of the NTU Aspiring Entrepreneurs competition,
@@ -67,16 +70,17 @@ const AboutUs = () => {
         </div>
         <div className="card-author card-author-2">
           <div className="title-author">
-            <p className="p-hightlight ">
-              Meet Le Quang Khai (Kevin Le), CTO of Moneymap
+            <p className="text-mb-center p-hightlight text-right ">
+              Meet Le Quang Khai (Kevin Le)
+              <br /> CTO of Moneymap
             </p>
-            <p className="text-right">
+            <p className=" text-right text-mb-justify">
               Kevin Le, with 18 years of experience in Information Technology
               (IT) for Property and Finance Company, brings a wealth of
               knowledge and expertise to the table. In developing the financial
               management mobile app "Money CEO,"
             </p>
-            <p className="text-right">
+            <p className="text-right text-mb-justify">
               Kevin's insights and leadership can drive innovation and inspire
               the team in several ways
             </p>
