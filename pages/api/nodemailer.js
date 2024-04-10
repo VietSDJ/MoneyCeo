@@ -15,7 +15,7 @@ export const sendEmail = async (body) => {
     // send mail with defined transport object
     let info = await transporter.sendMail({
       from: "Money CEO <yourmoneymapceo@gmail.com>",
-      to: "yourmoneymapceo@gmail.com",
+      to: "support@moneymap.sg",
       subject: "New Contact Information",
       html: `<div>
       <h1>Contact Information</h1>

@@ -1486,12 +1486,27 @@ a:visited {
 @media (max-width: 575px) {
   .side-menu__block-inner {
     max-width: 480px;
+    background-color: hsla(0, 0%, 100%, 0.96);
+  }
+
+  .side-menu__block-overlay {
+    width: 80%;
+    height: 130vh;
+
+    background-color: hsla(0, 0%, 100%, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    opacity: 0.7;
   }
 }
 
 @media (max-width: 480px) {
   .side-menu__block-inner {
-    max-width: 400px;
+    max-width: 312px;
   }
 }
 
@@ -4917,6 +4932,10 @@ a:visited {
 .dowload-app {
   display: flex;
   gap: 13px;
+}
+
+.dowload-app img {
+  height: 60px;
 }
 
 .text-highlight {

@@ -68,14 +68,12 @@ const CTAOne = () => {
                       <img
                         src={downloadGooglePlay}
                         alt="Download from Google Play"
-                        style={{ height: "60px" }}
                       />
                     </a>
                     <a onClick={openModal}>
                       <img
                         src={downloadAppStore}
                         alt="Download from App Store"
-                        style={{ height: "60px" }}
                       />
                     </a>
                   </div>

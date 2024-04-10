@@ -40,6 +40,9 @@
     height: 564px;
 }
 
+.modalContent img {
+    margin-bottom: 64px;
+}
 
 .content {
     width: 100%;
@@ -84,11 +87,12 @@
         position: relative;
         padding: 50px 20px;
         width: 80%;
-        height: 50%;
+        height: 40%;
     }
 
     .modalContent img {
         width: 270px;
+        margin-bottom: 40px;
     }
 
     .content p {

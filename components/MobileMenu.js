@@ -18,10 +18,7 @@ const MobileMenu = () => {
       <div
         className="side-menu__block-overlay custom-cursor__overlay"
         onClick={handleMenuClick}
-      >
-        <div className="cursor"></div>
-        <div className="cursor-follower"></div>
-      </div>
+      ></div>
       <div className="side-menu__block-inner ">
         <div className="side-menu__top justify-content-end">
           <a

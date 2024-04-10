@@ -107,18 +107,10 @@ const Services = () => {
             />
 
             <a onClick={openModal}>
-              <img
-                src={downloadGooglePlay}
-                alt="Download from Google Play"
-                style={{ height: "60px" }}
-              />
+              <img src={downloadGooglePlay} alt="Download from Google Play" />
             </a>
             <a onClick={openModal}>
-              <img
-                src={downloadAppStore}
-                alt="Download from App Store"
-                style={{ height: "60px" }}
-              />
+              <img src={downloadAppStore} alt="Download from App Store" />
             </a>
           </div>
         </div>

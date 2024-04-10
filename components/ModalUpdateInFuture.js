@@ -1,8 +1,21 @@
-import React from "react"
+import React, { useEffect } from "react"
 import styles from "../assets/css/modal.module.css"
 import undraw from "../assets/images/resources/undraw.png"
 
 const ModalUpdateInFuture = (props) => {
+  useEffect(() => {
+    const handleClickOutsideModal = (event) => {
+      if (props.isOpen && !event.target.closest(`.${styles.modalContent}`)) {
+        props.onClose()
+      }
+    }
+
+    document.addEventListener("click", handleClickOutsideModal)
+
+    return () => {
+      document.removeEventListener("click", handleClickOutsideModal)
+    }
+  }, [props.isOpen, props.onClose])
   if (!props.isOpen) return null
 
   return (
@@ -28,7 +41,7 @@ const ModalUpdateInFuture = (props) => {
           </svg>
         </a>
         <div className={styles.content}>
-          <img src={undraw} style={{ marginBottom: "64px" }} alt="" />
+          <img src={undraw} alt="" />
           <p>The app will be published in the very near future</p>
         </div>
       </div>

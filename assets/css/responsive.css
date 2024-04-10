@@ -1,4 +1,4 @@
-@media (max-width: 1440px) {
+@media (min-width: 600px)and(max-width: 1440px) {
   body {
     zoom: 80%;
   }
@@ -550,6 +550,10 @@
     font-size: 41px;
   }
 
+  .thriving .react-swipeable-view-container {
+    zoom: 80%;
+  }
+
   .thriving-thriving {
     flex-direction: column;
     grid-gap: 1px;
@@ -571,9 +575,13 @@
     margin-top: 10px;
   }
 
+  .dowload-app img {
+    height: 50px;
+  }
+
   .segmented__single .dowload-app img {
 
-    width: 80px;
+    height: 80px;
   }
 
   .thriving {
@@ -757,16 +765,14 @@
   .footer-widget__content_1 .row {
     margin-right: 0;
     margin-left: 0;
+    font-size: 16px;
   }
 
   .side-menu__block-inner {
     height: 130vh;
   }
 
-  .side-menu__block-overlay {
-    width: 80%;
-    height: 130vh;
-  }
+
 }
 
 @media (max-width: 425px) {
