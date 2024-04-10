@@ -1,12 +1,36 @@
-import React from "react"
+import React, { useState } from "react"
+import axios from "axios"
 import BlockTitle from "./BlockTitle"
 import ContactBgShape from "../assets/images/shapes/contact-bg-shape-1-1.png"
-import ContactImage from "../assets/images/resources/contact-1-1.jpg"
 import RadialCircle from "../assets/images/shapes/RadialCircle.png"
 
 const Contact = () => {
-  const sendMail = () => {
-    console.log("abc")
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    message: "",
+  })
+
+  const sendMail = async (e) => {
+    e.preventDefault() // Prevent default form submission behavior
+
+    try {
+      await axios.post("/api/sendEmail", formData)
+      alert("Email sent successfully!")
+    } catch (error) {
+      console.error("Error sending email:", error)
+      alert("Failed to send email")
+    }
+  }
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target
+    setFormData({
+      ...formData,
+      [name]: value,
+    })
   }
 
   return (
@@ -33,10 +57,8 @@ const Contact = () => {
         />
         <div className="are-45">
           <form
-            action="mailto:vietsdj@gmail.com"
-            method="post"
-            enctype="text/plain"
             className="contact-form-validated contact-one__form"
+            onSubmit={sendMail}
           >
             <BlockTitle
               textAlign="left"
@@ -49,6 +71,8 @@ const Contact = () => {
                   type="text"
                   placeholder="First Name *"
                   name="firstName"
+                  value={formData.firstName}
+                  onChange={handleInputChange}
                   required
                 />
               </div>
@@ -57,33 +81,41 @@ const Contact = () => {
                   type="text"
                   placeholder="Last Name *"
                   name="lastName"
+                  value={formData.lastName}
+                  onChange={handleInputChange}
+                  required
+                />
+              </div>
+              <div className="col-lg-12">
+                <input
+                  type="email"
+                  placeholder="Email Address *"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleInputChange}
                   required
                 />
               </div>
               <div className="col-lg-12">
                 <input
                   type="text"
-                  placeholder="Email Address *"
-                  name="email"
-                  required
+                  placeholder="Phone number"
+                  name="phone"
+                  value={formData.phone}
+                  onChange={handleInputChange}
                 />
-              </div>
-              <div className="col-lg-12">
-                <input type="text" placeholder="Phone number" name="phone" />
               </div>
               <div className="col-lg-12">
                 <textarea
                   placeholder="Write Message *"
                   required
                   name="message"
+                  value={formData.message}
+                  onChange={handleInputChange}
                 ></textarea>
               </div>
               <div className="col-lg-12 text-left text-mb-center">
-                <button
-                  type="submit"
-                  onClick={sendMail}
-                  className="thm-btn contact-one__btn"
-                >
+                <button type="submit" className="thm-btn contact-one__btn">
                   <span>Send Message</span>
                 </button>
               </div>
