@@ -1,12 +1,66 @@
-@media (min-width: 600px)and(max-width: 1440px) {
-  body {
+@media (min-width: 600px) and (max-width: 1440px) {
+
+  .site-header-one .container-fluid,
+  .banner-one,
+  .cta-one .container,
+  .cta-one [class*="cta-one__bg-coin-"],
+  .thriving .container,
+  .service-one .container,
+  .cta-author .container,
+  .cta-career .container,
+  .contact-one .flex-content-center,
+  .site-footer .container {
     zoom: 80%;
+  }
+
+  .main-nav__main-navigation .main-nav__navigation-box {
+    margin-left: 70px;
+  }
+
+  .main-nav__main-navigation .main-nav__navigation-box>li {
+    padding: 27px 0;
   }
 
   .cta-one__bg-career {
     width: 700px;
   }
 }
+
+@media (min-width: 600px) and (max-width: 1280px) {
+
+  .site-header-one .container-fluid,
+  .banner-one,
+  .cta-one .container,
+  .cta-one [class*="cta-one__bg-coin-"],
+  .thriving .container,
+  .service-one .container,
+  .cta-author .container,
+  .cta-career .container,
+  .contact-one .flex-content-center,
+  .site-footer .container {
+    zoom: 72%;
+  }
+
+  .cta-one__bg-career {
+    width: 600px;
+  }
+
+
+
+  .cta-one__bg-shape-1 {
+    top: 200px;
+    right: 0;
+  }
+
+  .cta-one__bg-shape-2 {
+    bottom: -250px;
+    right: 80px;
+
+  }
+
+}
+
+
 
 @media (max-width: 1199px) {
   .site-header-one .container-fluid {
@@ -685,6 +739,11 @@
     display: none;
   }
 
+  .team-one__bg-shape-2 {
+    left: 30px;
+    bottom: 170px;
+  }
+
   .text-mb-justify {
     text-align: justify !important;
   }
@@ -762,10 +821,18 @@
     display: flex;
   }
 
+  .footer-widget__content_1 p {
+    margin-bottom: 0;
+    line-height: 28px;
+
+  }
+
   .footer-widget__content_1 .row {
     margin-right: 0;
     margin-left: 0;
     font-size: 16px;
+    grid-gap: 0 5px;
+    gap: 0 5px;
   }
 
   .side-menu__block-inner {
@@ -838,13 +905,13 @@
 
   .col-footer-1 {
     -moz-box-flex: 0;
-    flex: 0 0 17%;
-    max-width: 17%;
+    flex: 0 0 20%;
+    max-width: 20%;
   }
 
   .col-footer-2 {
     -moz-box-flex: 0;
-    flex: 0 0 80%;
-    max-width: 80%;
+    flex: 0 0 78%;
+    max-width: 78%;
   }
 }

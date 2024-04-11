@@ -14,25 +14,22 @@ const Footer = () => {
                   <a href="index.html">
                     <img src={FooterLogo} width="129" alt="" />
                   </a>
-                  <p className="footer-company">
-                    Money Map Joint Stock Company
-                  </p>
+                  <p className="footer-company">MONEYMAP PRIVATE LIMITED</p>
                   <div className="row">
                     <div className="col-lg-2">
                       <p>Address </p>
                     </div>
                     <div className="col-lg-10">
                       <p>
-                        : 101 Marlow Street, #12-05 Clife Parkview, Singapore
-                        059020
+                        : THE PLAZA, 7500A BEACH ROAD, #04-332, Postal 199591
                       </p>
                     </div>
-                    <div className="col-lg-2">
+                    {/* <div className="col-lg-2">
                       <p>Hotline</p>
                     </div>
                     <div className="col-lg-10">
                       <p>: +65 9988 9908</p>
-                    </div>
+                    </div> */}
                     <div className="col-lg-2">
                       <p>Email</p>
                     </div>
@@ -57,28 +54,20 @@ const Footer = () => {
                 <a href="index.html">
                   <img src={FooterLogo} width="129" alt="" />
                 </a>
-                <p className="footer-company">Money Map Joint Stock Company</p>
+                <p className="footer-company">MONEYMAP PRIVATE LIMITED</p>
                 <div className="row">
                   <div className="col-footer-1 ">
                     <p>Address </p>
                   </div>
                   <div className="col-footer-2">
-                    <p>
-                      : 101 Marlow Street, #12-05 Clife Parkview, Singapore
-                      059020
-                    </p>
+                    <p>: THE PLAZA, 7500A BEACH ROAD, #04-332, Postal 199591</p>
                   </div>
-                  <div className="col-footer-1 ">
-                    <p>Hotline</p>
-                  </div>
-                  <div className="col-footer-2">
-                    <p>: +65 9988 9908</p>
-                  </div>
+
                   <div className="col-footer-1 ">
                     <p>Email</p>
                   </div>
                   <div className="col-footer-2">
-                    <p>: info@moneymap.asia</p>
+                    <p>: support@moneymap.sg</p>
                   </div>
                 </div>
               </div>
