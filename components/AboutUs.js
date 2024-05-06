@@ -63,7 +63,7 @@ const AboutUs = () => {
                 to his role at Moneymap. Under his leadership, Moneymap is
                 revolutionizing the way individuals manage their finances,
                 providing personalized solutions and cutting-edge technology to
-                empower clients to achieve their financial goals..
+                empower clients to achieve their financial goals.
               </p>
             </div>
           </div>
@@ -75,14 +75,18 @@ const AboutUs = () => {
               <br /> CTO of Moneymap
             </p>
             <p className=" text-right text-mb-justify">
-              Kevin Le, with 18 years of experience in Information Technology
-              (IT) for Property and Finance Company, brings a wealth of
-              knowledge and expertise to the table. In developing the financial
-              management mobile app "Money CEO,"
-            </p>
-            <p className="text-right text-mb-justify">
-              Kevin's insights and leadership can drive innovation and inspire
-              the team in several ways
+              With 18 years under his belt crafting IT solutions for Property
+              and Finance companies, Kevin Le brings a wealth of experience and
+              a keen understanding of the financial landscape to MoneyCEO. This
+              industry expertise fuels his vision for the app, transforming it
+              from a simple money management tool into a platform that empowers
+              users to achieve their financial goals. Kevin's leadership extends
+              far beyond technical prowess. Kevin’s passion for technology
+              inspires the team to push boundaries and deliver exceptional
+              results. This combination of industry knowledge, visionary
+              leadership, and a commitment to building a strong team makes Kevin
+              Le a key player in MoneyCEO's mission to revolutionise personal
+              finance management.
             </p>
           </div>
           <img

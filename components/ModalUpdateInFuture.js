@@ -42,7 +42,10 @@ const ModalUpdateInFuture = (props) => {
         </a>
         <div className={styles.content}>
           <img src={undraw} alt="" />
-          <p>The app will be published in the very near future</p>
+          <p>
+            Be the trailblazer! Be the first to get exclusive access to download
+            MoneyCEO!
+          </p>
         </div>
       </div>
     </div>
